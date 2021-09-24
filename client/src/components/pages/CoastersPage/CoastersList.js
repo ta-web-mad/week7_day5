@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Button, FormControl, InputGroup, Modal, Row } from 'react-bootstrap'
 import CoastersService from '../../../services/coasters.service';
-import CoasterForm from '../CoasterForm/CoasterForm';
+import CoasterForm from '../CoasterForm/CoasterFormHooks';
 import CoasterItem from './CoasterItem';
 
 export default class CoastersList extends Component {
